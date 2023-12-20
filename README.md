@@ -6,6 +6,7 @@ Ensayo que corre una pagina que graba desde el microfono
 ```
 pip install fastapi
 pip install "uvicorn[standard]"
+pip install jinja2
 ```
 
 ## Entorno virtual
@@ -32,19 +33,18 @@ El codigo del reproductor que se encuentra el directorio [static](static/) fue t
 ## TODO
 
 - [x] Se corre el [index.html](static/index.html) del reproductor invocando las funciones de javascript.
-- [ ] Los estilos CSS no cargan.
+- [x] Los estilos CSS no cargan.
 
-La salida en terminal al ejecutar la aplicacion se muestra a continuación:
+## Referencias principales
 
-```
-(env) PS C:\Users\Usuario\Documents\camellos\xavier\repos\record_fastapi> uvicorn main:app
-INFO:     Started server process [7520]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:57631 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57631 - "GET /style.css HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:57632 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-```
+### Punto de partida de la parte de javascript
 
+* https://code-maven.com/slides/python/fastapi-static-files-javascript
+
+### Solicion para cargar los archivos CSS
+
+* https://github.com/tiangolo/fastapi/issues/4989 
+* https://fastapi.tiangolo.com/advanced/templates/#templates-and-static-files
+* https://github.com/JarroVGIT/fastapi-github-issues/tree/master/4989
+* https://stackoverflow.com/questions/61641514/css-not-recognized-when-served-with-fastapi
 
