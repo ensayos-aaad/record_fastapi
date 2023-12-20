@@ -28,11 +28,11 @@ uvicorn main:app
 
 ## Importante
 
-El codigo del reproductor que se encuentra el directorio [static](static/) fue tomado del siguiente [repo](https://github.com/addpipe/simple-web-audio-recorder-demo?tab=readme-ov-file).
+El codigo del reproductor que se encuentra el directorio [webpages/record/](webpages/record/) fue tomado del siguiente [repo](https://github.com/addpipe/simple-web-audio-recorder-demo?tab=readme-ov-file).
 
 ## TODO
 
-- [x] Se corre el [index.html](webpages/index.html) del reproductor invocando las funciones de javascript.
+- [x] Se corre el [index.html](webpages/record/index.html) del reproductor invocando las funciones de javascript.
 - [x] Los estilos CSS no cargan.
 
 ## Referencias principales
