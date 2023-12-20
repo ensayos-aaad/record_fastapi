@@ -32,7 +32,7 @@ El codigo del reproductor que se encuentra el directorio [static](static/) fue t
 
 ## TODO
 
-- [x] Se corre el [index.html](static/index.html) del reproductor invocando las funciones de javascript.
+- [x] Se corre el [index.html](webpages/index.html) del reproductor invocando las funciones de javascript.
 - [x] Los estilos CSS no cargan.
 
 ## Referencias principales
